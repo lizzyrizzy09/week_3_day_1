@@ -50,24 +50,46 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 15 #integer variable
 # 2. name
+name= "liz" #string variable
 # 3. song
+song ="moonstruck" # string variable
 # 4. food
+food = "pasta" #string variable 
 # 5. number
+number = 9 #integer variable 
 
 
 # #now include the variables you just made print in the following...
+#concatenation --- + around your variables 
 
+print("Once upon a time, there was a " + str( age ) +  " old coder named " +  name  + ".")
+print("there was a number " + str(number) + "as well")
+#put the age and number in a new sentence
+print( "She was " + str(age) + " years old and her favorite number is " + str(number) + ".")
+date_of_birth = 2021 
+number2 = 123
+number3 = 123.456
+number4= 123.33
+number5 =4555
+print("She was born in " + str(date_of_birth) + " at minute " + str(number2) + " they say it was minute " + 
+      str(number3) + " while others say it was minute " + str(number4) +  " , will she live up to be " + str( number5) 
+     +  " days old?")
+
+print(f"the date of birth is {date_of_birth} and the number is {number3} and the number is {number4} and the number is {number5}")
 
 # Once upon a time, there was a [age] old coder named [name].
+print( "Once upon a time, there was a " + str(age) + " year old coder named " + name + ".")
 
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print( name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw "
+       + food + " until " + name + " would stop singing.")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
-
+print( "Still, " + name + " was the best coder on the team and could write " + str(number) + " lines of code everyday. Maybe " + song +  " was " + name + "'s secret power?")
 
 
 
