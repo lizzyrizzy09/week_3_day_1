@@ -124,13 +124,14 @@ print( "Still, " + name + " was the best coder on the team and could write " + s
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list # this is a keyword in python
+# you cannot use it for your own variable name 
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -151,10 +152,10 @@ print( "Still, " + name + " was the best coder on the team and could write " + s
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# one_variable
+# email_address
+# percentage
+# image 
 
 
 
